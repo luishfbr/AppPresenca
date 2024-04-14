@@ -1,0 +1,357 @@
+body {
+  background-image: url(../assets/main.png);
+  background-position: -3.2vh;
+  background-size: 190vh;
+  overflow: hidden;
+  background-color: #003C43 !important;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}  
+
+.main {
+    max-width: auto;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.container-visible {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 1.5rem; */
+    max-width: auto;
+    margin: 1.5rem;
+}
+
+.glass{
+    /* width: 35rem;
+    height: 16rem; */
+    width: auto;
+    height: auto;
+    /* padding: 5rem; */
+    background-color: white; /* Fundo branco com 30% de opacidade */
+    border-radius: 2.5rem; /* Raio das bordas para criar uma aparência de quadrado */
+    position: absolute; /* Posição absoluta para centralizar */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Move o quadrado para o centro da tela */
+    box-shadow: 0px 8px 15x rgba(0, 0, 0, 0.3); /* Sombra nos lados e embaixo */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 0.5rem;
+}
+
+.span-title-approved{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 0.5rem;
+}
+
+.p-title-approved{
+    text-align: center;
+    font-size: large;
+    margin: 0;
+}
+
+.span-title-denied{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin: 0 0 0 0;
+    color: black;
+}
+
+.p-title-denied{
+    text-align: center;
+    font-size: large;
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.p-title {
+    text-align: center;
+    font-size: large;
+    width: 30rem;
+    text-align: center;
+    margin: 0;
+}
+
+.p-title-main {
+  text-align: center;
+  font-size: large;
+  width: 30rem;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.div-approved {
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: large;
+    width: 4rem;
+    text-align: center;
+    margin: 0;
+    /* padding-bottom: 2rem; */
+  }
+  
+  .div-approved h1 {
+      color: black;
+      background-color: rgb(24, 212, 102);
+      border-radius: 5rem;
+      border: solid 2px black;
+  }
+
+  .div-denied h1 {
+    color: white;
+    background-color: rgb(216, 0, 0);
+    border-radius: 5rem;
+    margin: 0.5rem;
+    border: solid 2px black;
+}
+.div-denied {
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: large;
+    width: 4.5rem;
+    text-align: center;
+    margin: 0;
+    /* padding-bottom: 2rem; */
+}
+
+
+.imglogo {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-btns {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 4rem;
+}
+
+.input-form {
+    appearance: none;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 0.75rem;
+    width: 100%;
+    color: #000000;
+    margin-right: 0.75rem;
+    padding: 0.85rem 1.5rem;
+    line-height: 1.25;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-form {
+    color: white;
+    display: inline-flex;
+    flex-shrink: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 0.75rem; /* 6px */
+    font-size: medium;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    background-color: black;
+    font-weight: bold;
+}
+
+.btn-form:hover {
+    background-color: #38a89d;
+    border-color: #38a89d;
+    font-weight: bold;
+    color: #000000;
+}
+
+.link-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.div-select {
+    display: flex;
+    flex-direction: column; 
+}
+
+.select {
+    padding: 0.75rem 1.5rem;
+    border-radius: 1.25rem;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* background-color: black; */
+    /* color: blanchedalmond; */
+    margin-bottom: 1rem;
+}
+
+.select option {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .select option:first-child {
+    /* Estilo para a primeira opção (placeholder) */
+    color: #999; /* cor cinza para indicar que é um placeholder */
+  }
+
+  .text-list {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.25rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+
+  .msg-error {
+    color: red;
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .p-select {
+    font-size: normal;
+  }
+
+  .ul-select {
+    list-style: none;
+    padding: 0;
+    font-size: normal;
+  }
+
+  .div-btn {
+    margin: 0;
+    /* padding-top: 1rem; */
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .voltar-btn {
+    border: solid 2px black;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: medium;
+    cursor: pointer;
+  }
+
+  .voltar-btn:hover {
+    background-color: #c0e2df;
+  }
+
+  .voltar-btn-top {
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    /* margin-top: 5rem; */
+  }
+
+  .voltar-btn-top:hover {
+    background-color: #c0e2df;
+  }
+
+
+  .linkstyle {
+    text-decoration: none;
+    color: #000000;
+  }
+
+
+
+  /* TAURI CONFIG CSS */
+  .titlebar {
+    height: 30px;
+    background: #329ea3;
+    user-select: none;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .titlebar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  .titlebar-button:hover {
+    background: #5bbec3;
+  }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.select-list {
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
